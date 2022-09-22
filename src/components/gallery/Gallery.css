@@ -1,0 +1,16 @@
+.gridContainer {
+    width: 1080px;
+    columns: 3;
+    column-fill: balance;
+}
+
+.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

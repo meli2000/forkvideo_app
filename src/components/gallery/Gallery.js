@@ -7,7 +7,7 @@ import { nameArray } from "./testObject"
 export const Gallery = (props) => {
     const {setVideo} = useContext(VideoContext)
 
-    let mapped= galleryMapper(nameArray) // use nameArray to test
+    let mapped= galleryMapper(props.videos) // use nameArray to test
 
     const changeVideo = (id) => setVideo(id)
 

@@ -26,7 +26,7 @@ function App() {
       
       <VideoContext.Provider value={{video, setVideo}}>
       {video ? (
-        <video src={`/video/${video}`} width="1080px" controls></video>
+        <video src={`/video/${decodeURIComponent(video)}`} width="1080px" controls></video>
       ) : (<Header />)}
       <Gallery videos={videos} video={video}/>
       </VideoContext.Provider>

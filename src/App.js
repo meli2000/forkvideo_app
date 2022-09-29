@@ -23,13 +23,14 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      
+      <div className='contenedorvideo'>
       <VideoContext.Provider value={{video, setVideo}}>
       {video ? (
         <video src={`/video/${decodeURIComponent(video)}`} width="1080px" controls></video>
       ) : (<Header />)}
       <Gallery videos={videos} video={video}/>
       </VideoContext.Provider>
+      </div>
     </div>
   );
 }

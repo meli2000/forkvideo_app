@@ -1,16 +1,15 @@
 .headerContainer {
     width: 200px;
-    margin: 15px 0;
-    display: flex ;
+    margin: 100px 1px 5px 425px;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    
-
-
+ 
 }
 
 .headerImg {
     width: 100%
+
 }
 
 .row {

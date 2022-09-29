@@ -3,11 +3,11 @@
     width: 100%;
     height: fit-content;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
-
+position:fixed;
     justify-content: flex-start;
     background: rgb(214,26,38);
     background: linear-gradient(72deg, rgba(214,26,38,1) 33%, rgba(46,30,75,1) 88%);
-    padding: 0 0 0 30px;
+    padding: 5px 0 5px 50px;
     box-shadow: 1px 20px 14px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 1px 20px 14px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 1px 20px 14px 0px rgba(0,0,0,0.75);

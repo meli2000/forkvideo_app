@@ -1,5 +1,6 @@
 # Kraken Client
 
-Client for home video server. [Demo](https://imaginative-marzipan-d1faaa.netlify.app/)
+Demo. [Demo](https://videoapprw.netlify.app/)
 
 ![image info](screenshot.png)
+too bad for design xD, not finished yet

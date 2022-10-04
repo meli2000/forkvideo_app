@@ -9,6 +9,15 @@ const testObject =
       score: 9.3
     },
     {
+      
+      title: 'X-men',
+      year: 1994,
+      director: 'Frank Darabont',
+      duration: '2h 22min',
+      genre: ['Crime', 'Drama'],
+      score: 9.3
+    },
+    {
       title: 'The Godfather',
       year: 1972,
       director: 'Francis Ford Coppola',
@@ -2001,5 +2010,7 @@ const testObject =
       genre: ['Comedy', 'Drama'],
       score: 8
     }];
-export const nameArray = testObject.map((movie) => movie.title)
+export const nameArray = testObject.map((movie)=>movie.title)
+
+
 

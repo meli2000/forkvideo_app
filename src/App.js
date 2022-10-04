@@ -4,7 +4,7 @@ import { Gallery } from './components/gallery/Gallery';
 import { Navigation } from './components/navigation/Navigation';
 import { Header } from './components/header/Header';
 
-export const VideoContext = createContext()
+export const VideoContext = createContext() 
 
 function App() {
 

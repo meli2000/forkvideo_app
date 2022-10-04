@@ -11,7 +11,7 @@ export const Navigation = () => {
             <div className="navContainerimg ">
                <KrakenSVG className="headerImg"/>
             </div>
-            <div className="titulo"><strong>Kraken Video player   </strong></div>
+            <div className="titulo"><h1>Kraken Video player   </h1></div>
             
             
                
